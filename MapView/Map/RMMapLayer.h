@@ -41,11 +41,11 @@
     // expressed in projected meters. The anchorPoint of the image/path/etc. is plotted here.
     RMProjectedPoint projectedLocation;
 
-    BOOL draggingEnabled;
-
     // provided for storage of arbitrary user data
     id userInfo;
 }
+
+@property(nonatomic)BOOL draggingEnabled;
 
 /** @name Configuring Map Layer Properties */
 
