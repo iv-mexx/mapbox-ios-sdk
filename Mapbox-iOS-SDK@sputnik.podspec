@@ -1,22 +1,21 @@
 Pod::Spec.new do |m|
 
-  m.name    = 'Mapbox-iOS-SDK@sputnik'
-  m.version = '1.6.5-sputnik'
+  m.name    = 'Mapbox-Ginfo'
+  m.version = '1.6.6'
 
   m.summary          = 'Fork of MapBox iOS SDK with some patches.'
   m.description      = 'An open source toolset for building mapping applications for iOS devices with great flexibility for visual styling, offline use, and customizability.'
-  m.homepage         = 'https://github.com/sputnik-ru/Mapbox-iOS-SDK'
+  m.homepage         = 'https://github.com/iv-mexx/Mapbox-Ginfo'
   m.license          = 'BSD'
-  m.author           = { 'Denis Zamataev' => 'zamataev@corp.sputnik.ru' }
-  m.screenshot       = 'https://raw.github.com/sputnik-ru/Mapbox-iOS-SDK/packaging/screenshot.png'
+  m.author           = { 'Denis Zamataev' => 'zamataev@corp.sputnik.ru', 'Markus Chmelar' => 'chmelarmarkus@gmail.com' }
 
-  m.source = { :git => 'https://github.com/sputnik-ru/Mapbox-iOS-SDK.git', :tag => m.version.to_s }
+  m.source = { :git => 'https://github.com/iv-mexx/Mapbox-Ginfo', :tag => m.version.to_s }
 
   m.platform              = :ios
   m.ios.deployment_target = '5.0'
   m.requires_arc          = true
 
-  m.module_name = 'Mapbox_iOS_SDK'
+  m.module_name = 'Mapbox'
 
   m.source_files = 'Proj4/proj_api.h', 'MapView/Map/*.{h,c,m}'
 
