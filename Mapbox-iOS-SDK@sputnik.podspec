@@ -1,7 +1,7 @@
 Pod::Spec.new do |m|
 
   m.name    = 'Mapbox-Ginfo'
-  m.version = '1.6.6'
+  m.version = '1.6.7'
 
   m.summary          = 'Fork of MapBox iOS SDK with some patches.'
   m.description      = 'An open source toolset for building mapping applications for iOS devices with great flexibility for visual styling, offline use, and customizability.'
@@ -77,7 +77,7 @@ Pod::Spec.new do |m|
 
   m.xcconfig = {
     'OTHER_LDFLAGS'        => '-ObjC',
-    'LIBRARY_SEARCH_PATHS' => '"${PODS_ROOT}/Mapbox-iOS-SDK/Proj4"'
+    'LIBRARY_SEARCH_PATHS' => '"${PODS_ROOT}/Mapbox-Ginfo/Proj4"'
   }
 
   m.preserve_paths = 'MapView/MapView.xcodeproj', 'MapView/Map/Resources'
